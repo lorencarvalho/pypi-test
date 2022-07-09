@@ -1,0 +1,12 @@
+[build-system]
+requires = ["flit@https://github.com/pypa/flit/archive/refs/tags/3.7.1.tar.gz"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "pypitest"
+version = "0.0.1"
+description = "Nada"
+dependencies = [
+  "httpx@https://github.com/encode/httpx/archive/refs/tags/0.23.0.tar.gz",
+  "Django==3.2.8",
+]
